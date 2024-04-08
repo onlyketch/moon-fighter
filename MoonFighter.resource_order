@@ -38,6 +38,8 @@
     {"name":"s_rocket_big","order":1,"path":"sprites/s_rocket_big/s_rocket_big.yy",},
     {"name":"s_rocket_small","order":2,"path":"sprites/s_rocket_small/s_rocket_small.yy",},
     {"name":"s_star","order":5,"path":"sprites/s_star/s_star.yy",},
+    {"name":"s_star2","order":13,"path":"sprites/s_star2/s_star2.yy",},
+    {"name":"s_stars_bg","order":14,"path":"sprites/s_stars_bg/s_stars_bg.yy",},
     {"name":"s_ui_arrow","order":5,"path":"sprites/s_ui_arrow/s_ui_arrow.yy",},
     {"name":"s_ui_coin","order":4,"path":"sprites/s_ui_coin/s_ui_coin.yy",},
     {"name":"ui_btn_down","order":7,"path":"sprites/ui_btn_down/ui_btn_down.yy",},

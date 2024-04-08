@@ -61,6 +61,8 @@
     {"id":{"name":"s_rocket_big","path":"sprites/s_rocket_big/s_rocket_big.yy",},},
     {"id":{"name":"s_rocket_small","path":"sprites/s_rocket_small/s_rocket_small.yy",},},
     {"id":{"name":"s_star","path":"sprites/s_star/s_star.yy",},},
+    {"id":{"name":"s_star2","path":"sprites/s_star2/s_star2.yy",},},
+    {"id":{"name":"s_stars_bg","path":"sprites/s_stars_bg/s_stars_bg.yy",},},
     {"id":{"name":"s_ui_arrow","path":"sprites/s_ui_arrow/s_ui_arrow.yy",},},
     {"id":{"name":"s_ui_coin","path":"sprites/s_ui_coin/s_ui_coin.yy",},},
     {"id":{"name":"ui_btn_down","path":"sprites/ui_btn_down/ui_btn_down.yy",},},
