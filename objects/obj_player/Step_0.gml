@@ -9,3 +9,24 @@ if (variable_global_exists("round_start")) {
 		}	
 	}
 }
+
+if ( keyboard_check(ord("Z")) ) {
+	if (!global.round_start) {
+		global.round_start = true;
+	}
+	vspeed = -2;
+}
+
+if ( keyboard_check(ord("X")) ) {
+	if (!global.round_start) {
+		global.round_start = true;
+	}
+	vspeed = 2;
+}
+
+if ( keyboard_check_pressed(ord("M")) ) {
+	if (!global.round_start) {
+		global.round_start = true;
+	}
+	instance_create_depth(bull_create_x, y + bull_create_y, 1, obj_bull);
+}
