@@ -5,7 +5,6 @@ if (variable_global_exists("round_start")) {
 		} else {
 			vspeed = -vspeed;
 			timer_dir = game_get_speed(gamespeed_fps) / 2;
-			show_debug_message(vspeed);
 		}	
 	}
 }
@@ -24,9 +23,30 @@ if ( keyboard_check(ord("X")) ) {
 	vspeed = 2;
 }
 
+// Shooting Start //
+
 if ( keyboard_check_pressed(ord("M")) ) {
 	if (!global.round_start) {
 		global.round_start = true;
 	}
-	instance_create_depth(bull_create_x, y + bull_create_y, 1, obj_bull);
+	if (can_shoot) {
+		instance_create_depth(bull_create_x, y + bull_create_y, 1, obj_bull);
+		can_shoot = !can_shoot;
+	}
 }
+
+if (!can_shoot) {
+	
+	timer_shoot--;
+	
+	if (timer_shoot < 1) {
+		can_shoot = !can_shoot;
+		timer_shoot = game_get_speed(gamespeed_fps) / 4;
+	}
+	
+}
+
+
+
+// Shooting End //
+
