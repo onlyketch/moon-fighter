@@ -1,2 +1,2 @@
 global.round_start = false;
-timer_rocket = game_get_speed(gamespeed_fps) * 3;
+timer_rocket = game_get_speed(gamespeed_fps) * 2;

@@ -41,7 +41,7 @@ if (!can_shoot) {
 	
 	if (timer_shoot < 1) {
 		can_shoot = !can_shoot;
-		timer_shoot = game_get_speed(gamespeed_fps) / 4;
+		timer_shoot = game_get_speed(gamespeed_fps) / 3;
 	}
 	
 }
