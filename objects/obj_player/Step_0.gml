@@ -31,6 +31,7 @@ if ( keyboard_check_pressed(ord("M")) ) {
 	}
 	if (can_shoot) {
 		instance_create_depth(bull_create_x, y + bull_create_y, 1, obj_bull);
+		audio_play_sound(snd_shot, 10, false);
 		can_shoot = !can_shoot;
 	}
 }
