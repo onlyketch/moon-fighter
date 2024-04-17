@@ -4,3 +4,4 @@ vspeed = -0.4;
 bull_create_x = x + sprite_width - 12;
 bull_create_y = sprite_height - 40;
 can_shoot = true;
+image_index = 0;

@@ -9,14 +9,14 @@ if (variable_global_exists("round_start")) {
 	}
 }
 
-if ( keyboard_check(ord("Z")) ) {
+if ( keyboard_check_pressed(ord("Z")) ) {
 	if (!global.round_start) {
 		global.round_start = true;
 	}
 	vspeed = -2;
 }
 
-if ( keyboard_check(ord("X")) ) {
+if ( keyboard_check_pressed(ord("X")) ) {
 	if (!global.round_start) {
 		global.round_start = true;
 	}
@@ -47,7 +47,11 @@ if (!can_shoot) {
 	
 }
 
-
-
 // Shooting End //
+
+if (y < 1) {
+	if (global.round_start) {
+		vspeed = vspeed * -1;
+	}
+}
 

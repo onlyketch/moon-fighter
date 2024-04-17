@@ -7,4 +7,5 @@ draw_text(obj_ui_coin.x + 60, obj_ui_coin.y + 6, "6");
 draw_text(obj_ui_arrow.x + 48, obj_ui_arrow.y + 4, "00079");
 
 //Прогресс линия
-draw_rectangle(obj_bar.x + 12, obj_bar.y + 8, obj_bar.x + 244, obj_bar.y + 32, false);
+draw_rectangle(obj_bar.x + 12, obj_bar.y + 8, obj_bar.x + 220.8, obj_bar.y + 32, false);
+//244
