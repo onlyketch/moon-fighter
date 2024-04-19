@@ -31,6 +31,7 @@
     {"name":"obj_moon","order":13,"path":"objects/obj_moon/obj_moon.yy",},
     {"name":"obj_progress_line","order":7,"path":"objects/obj_progress_line/obj_progress_line.yy",},
     {"name":"obj_rocket_big","order":12,"path":"objects/obj_rocket_big/obj_rocket_big.yy",},
+    {"name":"obj_rocket_small","order":16,"path":"objects/obj_rocket_small/obj_rocket_small.yy",},
     {"name":"obj_ui_arrow","order":6,"path":"objects/obj_ui_arrow/obj_ui_arrow.yy",},
     {"name":"obj_ui_coin","order":5,"path":"objects/obj_ui_coin/obj_ui_coin.yy",},
     {"name":"snd_explosion","order":1,"path":"sounds/snd_explosion/snd_explosion.yy",},
