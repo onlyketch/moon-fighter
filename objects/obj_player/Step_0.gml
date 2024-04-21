@@ -55,3 +55,10 @@ if (y < 1) {
 	}
 }
 
+// loss //
+
+if (global.health == 0) {
+	instance_create_depth(x, y + sprite_height - 52, 1, obj_fall);
+	instance_destroy();
+}
+

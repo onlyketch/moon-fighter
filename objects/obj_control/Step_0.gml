@@ -17,3 +17,8 @@ if (global.round_start) {
 	}
 	
 }
+
+//game restart
+if (keyboard_check_pressed(ord("R"))) {
+	room_goto(rm_game);
+}

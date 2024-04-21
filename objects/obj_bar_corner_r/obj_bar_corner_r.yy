@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_draw",
+  "%Name":"obj_bar_corner_r",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_draw",
+  "name":"obj_bar_corner_r",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_progress_corner",
+    "path":"sprites/s_progress_corner/s_progress_corner.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

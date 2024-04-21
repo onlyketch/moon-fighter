@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bar_corner",
-  "eventList":[],
+  "%Name":"obj_bar_corner_l",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_bar_corner",
+  "name":"obj_bar_corner_l",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
