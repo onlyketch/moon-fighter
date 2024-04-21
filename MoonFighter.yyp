@@ -37,8 +37,8 @@
   "resources":[
     {"id":{"name":"fnt_ps2p","path":"fonts/fnt_ps2p/fnt_ps2p.yy",},},
     {"id":{"name":"Tasks","path":"notes/Tasks/Tasks.yy",},},
-    {"id":{"name":"obj_bar_corner_r","path":"objects/obj_bar_corner_r/obj_bar_corner_r.yy",},},
     {"id":{"name":"obj_bar_corner_l","path":"objects/obj_bar_corner_l/obj_bar_corner_l.yy",},},
+    {"id":{"name":"obj_bar_corner_r","path":"objects/obj_bar_corner_r/obj_bar_corner_r.yy",},},
     {"id":{"name":"obj_bar","path":"objects/obj_bar/obj_bar.yy",},},
     {"id":{"name":"obj_btn_down","path":"objects/obj_btn_down/obj_btn_down.yy",},},
     {"id":{"name":"obj_btn_fire","path":"objects/obj_btn_fire/obj_btn_fire.yy",},},
@@ -56,6 +56,7 @@
     {"id":{"name":"obj_rocket_small","path":"objects/obj_rocket_small/obj_rocket_small.yy",},},
     {"id":{"name":"obj_ui_arrow","path":"objects/obj_ui_arrow/obj_ui_arrow.yy",},},
     {"id":{"name":"obj_ui_coin","path":"objects/obj_ui_coin/obj_ui_coin.yy",},},
+    {"id":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},},
     {"id":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"snd_explosion","path":"sounds/snd_explosion/snd_explosion.yy",},},

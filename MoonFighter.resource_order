@@ -18,8 +18,8 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"obj_bar_corner_r","order":4,"path":"objects/obj_bar_corner_r/obj_bar_corner_r.yy",},
     {"name":"obj_bar_corner_l","order":18,"path":"objects/obj_bar_corner_l/obj_bar_corner_l.yy",},
+    {"name":"obj_bar_corner_r","order":4,"path":"objects/obj_bar_corner_r/obj_bar_corner_r.yy",},
     {"name":"obj_bar","order":3,"path":"objects/obj_bar/obj_bar.yy",},
     {"name":"obj_btn_down","order":10,"path":"objects/obj_btn_down/obj_btn_down.yy",},
     {"name":"obj_btn_fire","order":11,"path":"objects/obj_btn_fire/obj_btn_fire.yy",},
@@ -36,6 +36,7 @@
     {"name":"obj_rocket_small","order":16,"path":"objects/obj_rocket_small/obj_rocket_small.yy",},
     {"name":"obj_ui_arrow","order":6,"path":"objects/obj_ui_arrow/obj_ui_arrow.yy",},
     {"name":"obj_ui_coin","order":5,"path":"objects/obj_ui_coin/obj_ui_coin.yy",},
+    {"name":"obj_coin","order":19,"path":"objects/obj_coin/obj_coin.yy",},
     {"name":"rm_game_over","order":1,"path":"rooms/rm_game_over/rm_game_over.yy",},
     {"name":"snd_explosion","order":1,"path":"sounds/snd_explosion/snd_explosion.yy",},
     {"name":"s_bull","order":3,"path":"sprites/s_bull/s_bull.yy",},
