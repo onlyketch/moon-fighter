@@ -49,7 +49,7 @@ if (!can_shoot) {
 
 // Shooting End //
 
-if (y < 1) {
+if (y < 1 or y > (room_height - sprite_height - 1)) {
 	if (global.round_start) {
 		vspeed = vspeed * -1;
 	}
